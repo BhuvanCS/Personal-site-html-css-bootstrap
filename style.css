@@ -1,0 +1,68 @@
+#profile-photo{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+/*.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #5c76e9, #fcd6ff);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+  } */
+  .gradient-background, .about-me, .footer {
+    background-color: #0b2447;
+  }
+  h1{
+    
+    color: #A5D7E8;
+  }
+  .lead {
+    color:aliceblue
+  }
+  .navbar {
+    background-color: #0B2447;
+  }
+  .nav-link {
+    color: #A5D7E8;
+    font-size: 25px;
+    
+  }
+  .navbar-toggler{
+    background-color: #A5D7E8;
+  }
+  .feature-icon {
+    height: 7rem;
+    width: 7rem;
+    border-radius: .75rem;
+    background-color: white;
+    background-color: #A5D7E8;
+
+  }
+  .preview {
+   
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.7); /* This sets the background color to black with an opacity of 0.5 */
+    background-blend-mode: multiply;
+  }
+  .tindog{
+    background-image: url("./images/tindog.png");
+  }
+  .move-it{
+    background-image: url("./images/move-it.png");
+  }
+  .contact-logos{
+    display: inline;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
